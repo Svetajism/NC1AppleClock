@@ -7,18 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DA0636112B06B562001DEF64 /* NC1AppleClockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0636102B06B562001DEF64 /* NC1AppleClockApp.swift */; };
 		DA0636132B06B562001DEF64 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0636122B06B562001DEF64 /* ContentView.swift */; };
 		DA0636152B06B563001DEF64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA0636142B06B563001DEF64 /* Assets.xcassets */; };
 		DA0636182B06B563001DEF64 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA0636172B06B563001DEF64 /* Preview Assets.xcassets */; };
+		DA06361F2B06B5CC001DEF64 /* AlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA06361E2B06B5CC001DEF64 /* AlarmView.swift */; };
+		DA0636222B06B730001DEF64 /* AlarmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0636212B06B730001DEF64 /* AlarmModel.swift */; };
+		DA0636242B06BA1B001DEF64 /* WorldClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0636232B06BA1B001DEF64 /* WorldClockView.swift */; };
+		DA0636272B06BA40001DEF64 /* StopwatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0636262B06BA40001DEF64 /* StopwatchView.swift */; };
+		DA06362A2B06BAB7001DEF64 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0636292B06BAB7001DEF64 /* TimerView.swift */; };
+		DADF7D1B2B0CC6DE0036957E /* TimePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADF7D1A2B0CC6DE0036957E /* TimePickerView.swift */; };
+		DADF7D1D2B0CCCAD0036957E /* CircuarProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADF7D1C2B0CCCAD0036957E /* CircuarProgressView.swift */; };
+		DAE1F4792B0E8557007D3EB5 /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE1F4782B0E8557007D3EB5 /* Int+Extension.swift */; };
+		DAE1F47C2B0E8640007D3EB5 /* TimerDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE1F47B2B0E8640007D3EB5 /* TimerDemoApp.swift */; };
+		DAE1F47E2B0E86DF007D3EB5 /* StartButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE1F47D2B0E86DF007D3EB5 /* StartButtonStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DA06360D2B06B562001DEF64 /* NC1AppleClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NC1AppleClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA0636102B06B562001DEF64 /* NC1AppleClockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NC1AppleClockApp.swift; sourceTree = "<group>"; };
 		DA0636122B06B562001DEF64 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DA0636142B06B563001DEF64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA0636172B06B563001DEF64 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DA06361E2B06B5CC001DEF64 /* AlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmView.swift; sourceTree = "<group>"; };
+		DA0636212B06B730001DEF64 /* AlarmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmModel.swift; sourceTree = "<group>"; };
+		DA0636232B06BA1B001DEF64 /* WorldClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldClockView.swift; sourceTree = "<group>"; };
+		DA0636262B06BA40001DEF64 /* StopwatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchView.swift; sourceTree = "<group>"; };
+		DA0636292B06BAB7001DEF64 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		DADF7D1A2B0CC6DE0036957E /* TimePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePickerView.swift; sourceTree = "<group>"; };
+		DADF7D1C2B0CCCAD0036957E /* CircuarProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircuarProgressView.swift; sourceTree = "<group>"; };
+		DAE1F4782B0E8557007D3EB5 /* Int+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extension.swift"; sourceTree = "<group>"; };
+		DAE1F47B2B0E8640007D3EB5 /* TimerDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerDemoApp.swift; sourceTree = "<group>"; };
+		DAE1F47D2B0E86DF007D3EB5 /* StartButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +69,12 @@
 		DA06360F2B06B562001DEF64 /* NC1AppleClock */ = {
 			isa = PBXGroup;
 			children = (
-				DA0636102B06B562001DEF64 /* NC1AppleClockApp.swift */,
+				DAE1F47B2B0E8640007D3EB5 /* TimerDemoApp.swift */,
 				DA0636122B06B562001DEF64 /* ContentView.swift */,
+				DA0636252B06BA1F001DEF64 /* WorldClock */,
+				DA0636202B06B5E9001DEF64 /* Alarms */,
+				DA0636282B06BA44001DEF64 /* Stopwatch */,
+				DA06362B2B06BABD001DEF64 /* Timer */,
 				DA0636142B06B563001DEF64 /* Assets.xcassets */,
 				DA0636162B06B563001DEF64 /* Preview Content */,
 			);
@@ -65,6 +87,59 @@
 				DA0636172B06B563001DEF64 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DA0636202B06B5E9001DEF64 /* Alarms */ = {
+			isa = PBXGroup;
+			children = (
+				DA06361E2B06B5CC001DEF64 /* AlarmView.swift */,
+				DA0636212B06B730001DEF64 /* AlarmModel.swift */,
+			);
+			path = Alarms;
+			sourceTree = "<group>";
+		};
+		DA0636252B06BA1F001DEF64 /* WorldClock */ = {
+			isa = PBXGroup;
+			children = (
+				DA0636232B06BA1B001DEF64 /* WorldClockView.swift */,
+			);
+			path = WorldClock;
+			sourceTree = "<group>";
+		};
+		DA0636282B06BA44001DEF64 /* Stopwatch */ = {
+			isa = PBXGroup;
+			children = (
+				DA0636262B06BA40001DEF64 /* StopwatchView.swift */,
+			);
+			path = Stopwatch;
+			sourceTree = "<group>";
+		};
+		DA06362B2B06BABD001DEF64 /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				DAE1F47A2B0E861B007D3EB5 /* Extention */,
+				DADF7D1C2B0CCCAD0036957E /* CircuarProgressView.swift */,
+				DADF7D1A2B0CC6DE0036957E /* TimePickerView.swift */,
+				DA0636292B06BAB7001DEF64 /* TimerView.swift */,
+				DAE1F47F2B0E86E5007D3EB5 /* ButtonStyles */,
+			);
+			path = Timer;
+			sourceTree = "<group>";
+		};
+		DAE1F47A2B0E861B007D3EB5 /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				DAE1F4782B0E8557007D3EB5 /* Int+Extension.swift */,
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
+		DAE1F47F2B0E86E5007D3EB5 /* ButtonStyles */ = {
+			isa = PBXGroup;
+			children = (
+				DAE1F47D2B0E86DF007D3EB5 /* StartButtonStyle.swift */,
+			);
+			path = ButtonStyles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,7 +177,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DA0636082B06B562001DEF64 /* Build configuration list for PBXProject "NC1AppleClock" */;
+			buildConfigurationList = DA0636082B06B562001DEF64 /* Build configuration list for PBXProject "iOS-Clock" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -138,7 +213,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA0636132B06B562001DEF64 /* ContentView.swift in Sources */,
-				DA0636112B06B562001DEF64 /* NC1AppleClockApp.swift in Sources */,
+				DA06362A2B06BAB7001DEF64 /* TimerView.swift in Sources */,
+				DA0636272B06BA40001DEF64 /* StopwatchView.swift in Sources */,
+				DAE1F47E2B0E86DF007D3EB5 /* StartButtonStyle.swift in Sources */,
+				DA0636222B06B730001DEF64 /* AlarmModel.swift in Sources */,
+				DADF7D1D2B0CCCAD0036957E /* CircuarProgressView.swift in Sources */,
+				DAE1F4792B0E8557007D3EB5 /* Int+Extension.swift in Sources */,
+				DA06361F2B06B5CC001DEF64 /* AlarmView.swift in Sources */,
+				DAE1F47C2B0E8640007D3EB5 /* TimerDemoApp.swift in Sources */,
+				DA0636242B06BA1B001DEF64 /* WorldClockView.swift in Sources */,
+				DADF7D1B2B0CC6DE0036957E /* TimePickerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,8 +362,11 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,8 +394,11 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,7 +415,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DA0636082B06B562001DEF64 /* Build configuration list for PBXProject "NC1AppleClock" */ = {
+		DA0636082B06B562001DEF64 /* Build configuration list for PBXProject "iOS-Clock" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DA0636192B06B563001DEF64 /* Debug */,

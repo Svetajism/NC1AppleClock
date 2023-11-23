@@ -1,14 +1,14 @@
 //
-//  NC1AppleClockApp.swift
+//  TimerDemoApp.swift
 //  NC1AppleClock
 //
-//  Created by Svetlana Zakharova on 16/11/23.
+//  Created by Svetlana Zakharova on 22/11/23.
 //
 
 import SwiftUI
 
 @main
-struct NC1AppleClockApp: App {
+struct TimerDemoApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
